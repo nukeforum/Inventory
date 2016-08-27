@@ -11,7 +11,7 @@
 # generated files
 bin/
 gen/
-build/
+build
 app/intermediates/
 captures/
 
