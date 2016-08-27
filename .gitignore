@@ -22,6 +22,3 @@ captures/
 
 # Local configuration file (sdk path, etc)
 local.properties
-
-*.sw*
-build.gradle
