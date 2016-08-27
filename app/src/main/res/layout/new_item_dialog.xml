@@ -2,39 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-    
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/add_new_item"
-        android:textSize="20sp"/>
 
     <EditText
-        android:layout_width="100dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/item_naming_field"
-        android:hint="@string/item_name_prompt"/>
-    
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="?android:attr/buttonBarStyle">
-        
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/new_item_cancel_button"
-            android:text="@string/cancel"
-            style="?android:attr/buttonBarButtonStyle"/>
-        
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/new_item_add_button"
-            android:text="@string/add"
-            style="?android:attr/buttonBarButtonStyle"/>
-        
-    </LinearLayout>
+        android:hint="@string/item_name_prompt"
+        android:paddingStart="16dp"/>
 
 </LinearLayout>
