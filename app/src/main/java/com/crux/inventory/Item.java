@@ -9,7 +9,7 @@ public class Item extends RealmObject{
     @Required
     private String name;
 
-    private int points;
+    private float points;
 
     public Item() {
 
@@ -27,11 +27,11 @@ public class Item extends RealmObject{
         this.name = name;
     }
 
-    public int getPoints() {
+    public float getPoints() {
         return points;
     }
 
-    public void setPoints(int points) {
+    public void setPoints(float points) {
         this.points = points;
     }
 }
